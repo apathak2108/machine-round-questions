@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  width: 120px;
+  height: 150px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(8, 8, 8);
+  }
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: fit-content;
+  gap: 16px;
+}
