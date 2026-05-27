@@ -1,0 +1,15 @@
+.file-explorer-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.file-explorer-page h2 {
+  margin: 0 0 1rem;
+}
+
+.file-explorer-page .file-explorer {
+  text-align: left;
+  margin-left: 20px;
+}

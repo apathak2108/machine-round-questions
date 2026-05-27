@@ -1,11 +1,17 @@
-.main {
+.memory-game {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100svh;
 }
 
-.card {
+.memory-game-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-game .card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,13 +21,13 @@
   border: 2px solid gray;
   border-radius: 8px;
   cursor: pointer;
-
-  &:hover {
-    background-color: rgb(8, 8, 8);
-  }
 }
 
-.game-board {
+.memory-game .card:hover {
+  background-color: rgb(8, 8, 8);
+}
+
+.memory-game .game-board {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: fit-content;
