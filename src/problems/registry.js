@@ -14,4 +14,9 @@ export const problems = [
     title: "Accordion",
     description: "Accordion",
   },
+  {
+    path: "/nested-comments",
+    title: "Nested Comments",
+    description: "Nested Comments (Recursive)",
+  },
 ];
