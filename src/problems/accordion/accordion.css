@@ -1,0 +1,35 @@
+.accordion-card {
+  padding: 16px;
+  height: fit-content;
+  border: 2px solid grey;
+  width: 650px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-btn {
+  border: 1px dashed saddlebrown;
+  border-radius: 4px;
+  height: fit-content;
+  padding: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: aliceblue;
+  }
+}
+
+.accordion-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}
