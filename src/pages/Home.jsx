@@ -6,7 +6,6 @@ function Home() {
   return (
     <main className="home">
       <h1>Machine Round Questions</h1>
-      <p className="home-lead">Each demo is a separate route with its own code and styles.</p>
       <ul className="home-list">
         {problems.map((problem) => (
           <li key={problem.path}>
