@@ -1,0 +1,22 @@
+.todo-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-input {
+  display: flex;
+  gap: 8px;
+}
+
+.task {
+  display: flex;
+  gap: 16px;
+}
+
+.task-main {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
