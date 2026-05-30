@@ -19,4 +19,9 @@ export const problems = [
     title: "Nested Comments",
     description: "Nested Comments (Recursive)",
   },
+  {
+    path: 'todo-app',
+    title: 'Todo App',
+    description: 'Todo Application'
+  }
 ];

@@ -4,6 +4,7 @@ import FileExplorerPage from './problems/file-explorer/FileExplorerPage'
 import MemoryGamePage from './problems/memory-game/MemoryGamePage'
 import Accordion from './problems/accordion/AccordionPage'
 import NestedCommentsPage from './problems/nested-comments'
+import TodoApp from './problems/todo-app'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/file-explorer" element={<FileExplorerPage />} />
         <Route path="/accordion" element={<Accordion />} />
         <Route path='/nested-comments' element={<NestedCommentsPage />} />
+        <Route path='/todo-app' element={<TodoApp />} />
       </Routes>
     </BrowserRouter>
   )
