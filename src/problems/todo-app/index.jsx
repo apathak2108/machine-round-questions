@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './todo-app.css';
 import useQuery from "./useQuery";
+import useDebounce from "./useDebounce";
 
 const TodoApp = () => {
   const [tasks, setTasks] = useState([]);
@@ -9,7 +10,13 @@ const TodoApp = () => {
   const { data, error, isLoading, refetch } = useQuery('users',
     () => fetch('https://dummyjson.com/users').then((res) => res.json()));
   
-  console.log(data, 'data--', isLoading, '----', error)
+
+  const debounced = useDebounce(input, 500);
+  
+  useEffect(() => {
+    if (!debounced) return;
+    console.log(debounced);
+  }, [debounced])
 
   const handleAddTask = () => {
     if (tasks.find((task) => task === input)) {
