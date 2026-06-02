@@ -5,6 +5,7 @@ import MemoryGamePage from './problems/memory-game/MemoryGamePage'
 import Accordion from './problems/accordion/AccordionPage'
 import NestedCommentsPage from './problems/nested-comments'
 import TodoApp from './problems/todo-app'
+import CountdownTimer from './problems/countdown-timer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/accordion" element={<Accordion />} />
         <Route path='/nested-comments' element={<NestedCommentsPage />} />
         <Route path='/todo-app' element={<TodoApp />} />
+        <Route path='countdown-timer' element={<CountdownTimer />} />
       </Routes>
     </BrowserRouter>
   )

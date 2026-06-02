@@ -20,8 +20,13 @@ export const problems = [
     description: "Nested Comments (Recursive)",
   },
   {
-    path: 'todo-app',
-    title: 'Todo App',
-    description: 'Todo Application'
-  }
+    path: "todo-app",
+    title: "Todo App",
+    description: "Todo Application",
+  },
+  {
+    path: "countdown-timer",
+    title: "Countdown Timer",
+    description: "Countdown Application",
+  },
 ];
