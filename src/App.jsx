@@ -6,6 +6,7 @@ import Accordion from './problems/accordion/AccordionPage'
 import NestedCommentsPage from './problems/nested-comments'
 import TodoApp from './problems/todo-app'
 import CountdownTimer from './problems/countdown-timer'
+import NestedCheckbox from './problems/nested-checkbox'
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Route path="/accordion" element={<Accordion />} />
         <Route path='/nested-comments' element={<NestedCommentsPage />} />
         <Route path='/todo-app' element={<TodoApp />} />
-        <Route path='countdown-timer' element={<CountdownTimer />} />
+        <Route path='/countdown-timer' element={<CountdownTimer />} />
+        <Route path='/nested-checkbox' element={<NestedCheckbox />} />
       </Routes>
     </BrowserRouter>
   )

@@ -29,4 +29,9 @@ export const problems = [
     title: "Countdown Timer",
     description: "Countdown Application",
   },
+  {
+    path: "nested-checkbox",
+    title: "Nested checkbox",
+    description: "Nested checkbox Application",
+  },
 ];
